@@ -1,0 +1,66 @@
+[
+  {
+    "file": "src/test_with_pool.cpp",
+    "arguments": [
+      "/usr/bin/g++",
+      "-std=c++17",
+      "-Wall",
+      "-I/usr/include/mysql",
+      "-I/usr/include/mysql/mysql",
+      "-O2",
+      "-o",
+      "bin/test_with_pool",
+      "src/test_with_pool.cpp"
+    ],
+    "directory": "/home/alex/tmp/connection_pool",
+    "output": "bin/test_with_pool"
+  },
+  {
+    "file": "src/Connection.cpp",
+    "arguments": [
+      "/usr/bin/g++",
+      "-std=c++17",
+      "-Wall",
+      "-I/usr/include/mysql",
+      "-I/usr/include/mysql/mysql",
+      "-O2",
+      "-o",
+      "bin/test_with_pool",
+      "src/Connection.cpp"
+    ],
+    "directory": "/home/alex/tmp/connection_pool",
+    "output": "bin/test_with_pool"
+  },
+  {
+    "file": "src/CommonConnectionPool.cpp",
+    "arguments": [
+      "/usr/bin/g++",
+      "-std=c++17",
+      "-Wall",
+      "-I/usr/include/mysql",
+      "-I/usr/include/mysql/mysql",
+      "-O2",
+      "-o",
+      "bin/test_with_pool",
+      "src/CommonConnectionPool.cpp"
+    ],
+    "directory": "/home/alex/tmp/connection_pool",
+    "output": "bin/test_with_pool"
+  },
+  {
+    "file": "src/test_no_pool.cpp",
+    "arguments": [
+      "/usr/bin/g++",
+      "-std=c++17",
+      "-Wall",
+      "-I/usr/include/mysql",
+      "-I/usr/include/mysql/mysql",
+      "-O2",
+      "-o",
+      "bin/test_no_pool",
+      "src/test_no_pool.cpp"
+    ],
+    "directory": "/home/alex/tmp/connection_pool",
+    "output": "bin/test_no_pool"
+  }
+]
